@@ -28,7 +28,7 @@ client.login(username, password)
 
 
 
-hashtag = ("onepiece")
+hashtag = ("yourhashtaghere")
 hashtags = random.choice(hashtag)
 comments = ["Keep up the Great Work!", "Great post!", "Incredible!", "Masterpiece!", "Awesome!", "Beautiful Post!"]
 medias = client.hashtag_medias_recent(hashtag, 60)
